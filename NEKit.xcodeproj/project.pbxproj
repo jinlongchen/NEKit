@@ -292,6 +292,10 @@
 		610FC9282391C628006E0E5B /* HKDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610FC9252391C628006E0E5B /* HKDF.swift */; };
 		610FC9292391C628006E0E5B /* SwiftGCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610FC9262391C628006E0E5B /* SwiftGCM.swift */; };
 		610FC92B2391C635006E0E5B /* CryptoAeadProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610FC92A2391C634006E0E5B /* CryptoAeadProcessor.swift */; };
+		610FC92C2391CA81006E0E5B /* CryptoAeadProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610FC92A2391C634006E0E5B /* CryptoAeadProcessor.swift */; };
+		610FC92D2391CA85006E0E5B /* AeadCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610FC9242391C628006E0E5B /* AeadCrypto.swift */; };
+		610FC92E2391CA8A006E0E5B /* HKDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610FC9252391C628006E0E5B /* HKDF.swift */; };
+		610FC92F2391CAA8006E0E5B /* SwiftGCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610FC9262391C628006E0E5B /* SwiftGCM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1609,6 +1613,7 @@
 				361176641E00361600A1A058 /* CryptoStreamProcessor.swift in Sources */,
 				36C48DAA1CF9D6390071804F /* DNSMessage.swift in Sources */,
 				3650FAE31D27BA0900444E79 /* StreamCryptoProtocol.swift in Sources */,
+				610FC92F2391CAA8006E0E5B /* SwiftGCM.swift in Sources */,
 				36C48D7F1CF88EDE0071804F /* SOCKS5ProxySocket.swift in Sources */,
 				36C48D841CF88EE60071804F /* Opt.swift in Sources */,
 				36C48D671CF88EBC0071804F /* RuleParser.swift in Sources */,
@@ -1629,6 +1634,7 @@
 				36C48D5B1CF88EB60071804F /* SecureHTTPAdapterFactory.swift in Sources */,
 				362990C41D55890C00D11EBA /* GCDSOCKS5ProxyServer.swift in Sources */,
 				368CBDA41D7911D4003CEA62 /* RejectAdapterFactory.swift in Sources */,
+				610FC92C2391CA81006E0E5B /* CryptoAeadProcessor.swift in Sources */,
 				36C48D631CF88EB60071804F /* SpeedAdapter.swift in Sources */,
 				36C48D581CF88EB60071804F /* AuthenticationServerAdapterFactory.swift in Sources */,
 				36C48D561CF88EB60071804F /* AdapterFactoryManager.swift in Sources */,
@@ -1636,6 +1642,8 @@
 				36C48D7C1CF88EDA0071804F /* RuleManager.swift in Sources */,
 				36A719F81D64078800DC35F5 /* ObserverFactory.swift in Sources */,
 				36A719F31D634EA600DC35F5 /* Observer.swift in Sources */,
+				610FC92D2391CA85006E0E5B /* AeadCrypto.swift in Sources */,
+				610FC92E2391CA8A006E0E5B /* HKDF.swift in Sources */,
 				3650FAEF1D27C8A900444E79 /* CCCrypto.swift in Sources */,
 				36C48D611CF88EB60071804F /* SecureHTTPAdapter.swift in Sources */,
 				36C48D721CF88ECF0071804F /* GCDProxyServer.swift in Sources */,
